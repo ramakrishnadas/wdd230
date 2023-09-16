@@ -1,0 +1,114 @@
+/* Color Palette https://colorhunt.co/palette/f5efe7d8c4b64f709c213555 */
+body {
+    font-family: 'Hind Vadodara', sans-serif;
+    margin: 0;
+    text-align: center;
+    height: 100vh;
+}
+
+header, main, footer {
+    background-color: #4F709C;
+    color: #F5EFE7;
+    max-width: 640px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 100px auto;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    width: 100%;
+    display: inline;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.menu {
+    background-color: #D8C4B6;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.menu li {
+    color: #213555;
+    padding: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu li a:visited {
+    color: inherit;
+}
+
+.menu li:hover {
+    color: #F5EFE7;
+    background-color: #213555;
+}
+
+h2 {
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    margin: 10px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+main {
+    padding-bottom: 10px;
+}
+
+.card {
+    background-color: #F5EFE7;
+    border-radius: 12px;
+    color: #213555;
+    padding-bottom: 10px;
+    margin: 10px 0;
+}
+
+.card h3 {
+    padding: 10px;
+    margin: 0;
+}
+
+hr {
+    margin: 0;
+    border-color: #213555;
+}
+
+.learning-activities {
+    text-align: left;
+    line-height: 1.8em;
+    padding: 0 30px;
+    margin: 20px;
+}
+
+footer {
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+
+
+#lastModified {
+    color: yellow;
+}
