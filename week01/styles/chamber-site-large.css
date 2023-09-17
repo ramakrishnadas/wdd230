@@ -1,0 +1,100 @@
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Noto Serif', serif;
+    background-color: #FAF1E4;
+    color: #435334;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif; 
+}
+
+p {
+    padding: 1em;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid #435334;
+}
+
+.colors th {
+    background-color: lightgray;
+}
+
+.colors td{
+    width: 25%;
+    height: 3em;
+}
+
+.primary {
+    background-color: #435334;
+    color: #FAF1E4;
+}
+
+.secondary {
+    background-color: #9EB384;
+}
+
+.accent1 {
+    background-color: #CEDEBD;
+}
+
+.accent2{
+    background-color: #FAF1E4;
+}
+
+p.colored {
+    background-color: #435334;
+    color: #FAF1E4;
+    border-radius: 12px;
+}
+
+nav {
+    background-color: #435334;
+    color: #FAF1E4;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+nav  {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav a {
+    padding:    1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    width: 100%;
+}
+
+nav a:link, nav a:visited {
+    color: inherit;
+}
+
+nav a:hover {
+    color: #435334;
+    background-color: #CEDEBD;
+}
+  
+
+#p-font {
+    font-family: 'Noto Serif', serif;
+}
+
+img {
+    background-color: #9EB384;
+    padding: 10px;
+    border-radius: 12px;
+}
