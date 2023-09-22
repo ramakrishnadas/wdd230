@@ -25,6 +25,7 @@
     }
     .menu li {
         width: 100%;
+        display: block;
     }
     main {
         width: 90%;
