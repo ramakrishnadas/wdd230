@@ -1,0 +1,63 @@
+@media screen and (min-width: 1024px) {
+    header, main, footer {
+        max-width: 100%;
+    }
+
+    h1 {
+        text-align: center;
+        line-height: 2.5rem;
+        margin: 20px auto 50px auto;
+    }
+
+    .menu {
+        text-align: center;
+        padding: 0;
+        display: flex;
+        gap: 1px;
+        flex-direction: row;
+        border: 1px solid #CEDEBD;
+        border-style: solid none;
+        justify-content: space-around;
+        background-color: #CEDEBD;
+    }
+
+    .menu li {
+        border: none;
+        background-color: #435334;
+        width: 100%;
+    }
+    
+    #menu-button {
+        display: none;
+    }
+
+    .hero img {
+        display: block;
+        height: 100vh;
+        margin: 30px auto;
+        border-radius: 1vh;
+        border: 1px solid #CEDEBD;
+    }
+
+    footer {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: space-between;
+        font-size: 0.8rem;
+        letter-spacing: 3px;
+    }
+
+    footer hr {
+        display: none
+    }
+
+    .contact-info {
+        grid-column: span 2;
+        font-size: 1rem;
+        letter-spacing: normal;
+    }
+
+
+
+}

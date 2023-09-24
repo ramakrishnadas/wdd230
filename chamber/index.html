@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caracas Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="WDD 230 - Caracas Chamber of Commerce - Rama Krishna Bhagi Perez - Home Page">
+    <meta name="author" content="Rama Krishna Bhagi Perez">
+
+    <!-- styling link tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- social media meta tags -->
+    <meta property="og:title" content="Rama Bhagi - WDD 230 - Caracas Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <!--Add image for social media meta tag here.-->
+    <meta property="og:image" content="https://images.freeimages.com/images/large-previews/5f3/caracas-1520878.jpg">
+    <meta property="og:url" content="https://ramakrishnadas.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+        <h1>Caracas<br>Chamber of Commerce</h1>
+        <nav>
+            <button id="menu-button"></button>
+            <ul class="menu">
+                <li><a href="">Home</a></li>
+                <li><a href="">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero">
+            <img src="images/hero-image.jpg" alt="city landscape with buildings">
+            <button>Join Now</button>
+        </div>
+        <section class="events">
+            <h2>Current Events</h2>
+            <ul>
+                <li>
+                    <h3>Event Title 1</h3>
+                    <p>Date: January 1, 2024</p>
+                    <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                </li>
+                <li>
+                    <h3>Event Title 2</h3>
+                    <p>Date: February 15, 2024</p>
+                    <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="weather">
+            <h2>Weather Forecast</h2>
+            <div class="weather-card">
+                <p>City: Caracas</p>
+                <p>Temperature: 70°F</p>
+                <p>Condition: Sunny</p>
+            </div>
+        </section>
+
+        <section class="spotlights">
+            <h2>Company Spotlights</h2>
+            <div class="spotlight">
+                <h3>Spotlight 1</h3>
+                <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+            <div class="spotlight">
+                <h3>Spotlight 2</h3>
+                <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="spotlight">
+                <h3>Spotlight 3</h3>
+                <p>Description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Add contact information here-->
+        <div class="contact-info">
+            <p>Caracas Chamber of Commerce</p>
+            <p>Plaza La Castellana, 1070</p>
+            <p>+58 (212) 756-1367</p>
+        </div>
+        <hr>
+        <p>&copy; <span id="currentYear"></span> | Rama Krishna Bhagi Perez | WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+</body>
+</html>
