@@ -25,7 +25,7 @@
 <body>
     <header>
         <div class="hero">
-            <img src="images/me.jpg" alt="profile picture">
+            <img src="images/me.webp" alt="profile picture">
             <h1>Rama K. Bhagi</h1>
         </div>
         <button id="mode"></button>
@@ -40,8 +40,17 @@
         </nav>
     </header>
     <main>
+        <div class="hero-img">
+            <picture>
+                <source srcset="images/hero-small.webp" media="(max-width: 500px)" width="400" height="400">
+                <img srcset="images/hero-large.webp" alt="Temple in the United States" width="960" height="600">
+            </picture>
+            <div class="hero-label">
+                <p>Baton Rouge Louisiana Temple</p>
+            </div>
+        </div>
         <h2>WDD 230: Web Frontend Development</h2>
-        <section class="card">
+        <section class="card la-card">
             <h3>Learning Activities</h3>
             <hr>
             <ul class="learning-activities">
@@ -53,13 +62,14 @@
                 <li>Week 06: <a href=""></a></li>
             </ul>
         </section>
-        <section class="card">
+        <section class="card information">
             <h3>Information</h3>
             <hr>
             <p>Location</p>
             <p>Weather</p>
-            <p>Number of visits</p>
+            <p>Number of visits: <span id="number-visits"></span></p>
         </section>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7846.091600592276!2d-66.89179477738037!3d10.497055827798874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8c2a59273caf1313%3A0x8b7e054bb68e23cc!2sPlaza%20Venezuela!5e0!3m2!1ses!2sve!4v1695961901719!5m2!1ses!2sve" title="Caracas Map"  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> | Rama Krishna Bhagi Perez | Caracas, Venezuela</p>
@@ -68,5 +78,6 @@
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
     <script src="scripts/darkMode.js"></script>
+    <script src="scripts/numberVisits.js"></script>
 </body>
 </html>

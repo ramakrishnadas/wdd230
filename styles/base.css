@@ -20,13 +20,32 @@ header, main, footer {
     align-items: center;
 }
 
-img {
+.hero img {
     max-width: 100%;
     width: 100%;
     display: inline;
     padding: 20px;
     margin: 0;
 }
+
+.hero-label {
+	position: absolute;
+	top: 150px;
+	left: 40px;
+	background: #F5EFE7;
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	opacity: 1;
+}
+
+.hero-label p {
+    color: #4F709C;
+	margin: 0;
+	padding: .25rem;
+	font-weight: 700;
+	font-size: 2rem;
+}
+
 
 h1, h2 {
     font-family: 'Libre Franklin', sans-serif;
@@ -117,6 +136,12 @@ main {
     padding-bottom: 10px;
 }
 
+.hero-img img {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+}
+
 .card {
     background-color: #F5EFE7;
     border-radius: 12px;
@@ -142,9 +167,15 @@ hr {
     margin: 20px;
 }
 
+iframe {
+    width: 100%;
+    margin: 10px auto;
+}
+
 footer {
     padding: 10px 0;
     margin-top: 10px;
+    color: white;
 }
 
 #lastModified {
