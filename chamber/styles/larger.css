@@ -76,4 +76,38 @@
     .flex-container {
         display: flex;
     }
+
+    /* styling for Discover page */
+    .discover-grid {
+        grid-template-columns: 1fr 2fr;
+        gap: 10px;
+    }
+
+    .discover-grid p {
+        margin: 10px 10px;
+    }
+    .sidebar-card  {
+        grid-column: 1 / 2;
+    }
+
+    .image-container {
+        grid-column: 2 / 3;
+        grid-row: 1 / 6;
+        padding: 50px;
+    } 
+
+    .image-container img:hover {
+        opacity: 0.5;
+        -webkit-animation: flash 1.5s;
+	    animation: flash 1.5s;
+    }
+
+    @-webkit-keyframes flash {
+        0% {
+            opacity: .4;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
 }

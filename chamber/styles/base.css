@@ -26,6 +26,7 @@ header {
 h1, h2, h3 {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
+    font-size: 2rem;
 }
 
 h1 {
@@ -141,4 +142,60 @@ ul {
 footer {
     margin-top: 20px;
     
+}
+
+/* styling for Discover page */
+
+.discover-grid {
+    display: grid;
+    margin: 20px auto;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.discover-grid h3 {
+    margin: 30px auto;
+    font-size: 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+iframe {
+    max-width: 90%;
+    margin: 10px;
+}
+
+.discover-grid div {
+    background-color:#FAF1E4;
+    color: #435334;
+    border-radius: 12px;
+}
+.discover-grid p, .discover-grid ul {
+    padding: 15px;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.discover-grid ul {
+    text-align: left;
+}
+
+.attractions li {
+    padding-bottom: 15px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
 }
