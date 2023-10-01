@@ -70,16 +70,13 @@ ul {
     border-top: 1px solid #CEDEBD;
 }
 
-a:visited {
-    color: inherit;
-}
-
 .menu li a {
     display: block;
     width: 100%;
     text-decoration: none;
     padding: 15px 0;
     font-size: 1.2rem;
+    color: inherit;
 }
 
 .menu li:hover {
