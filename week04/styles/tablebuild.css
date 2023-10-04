@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+}
+
+table {
+    width: 500px;
+    margin: 0 auto;
+    border: thin solid lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+th, td {
+	padding: 7px 15px;
+    border: thin solid lightgray;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: lightgray;
+}
