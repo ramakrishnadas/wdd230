@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #F5EFE7;
+    --secondary-color: #213555;
+    --border: 1.5px solid black;
+}
+
+main {
+    display: block;
+    max-width: 900px;
+}
+
+form {
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#formmessage {
+    display: none;
+    visibility: hidden;
+	margin: 10px;
+	padding: 0.5rem;
+	background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: var(--border);
+    border-radius: 10px;
+}
+
+form label {
+    display: block;
+    padding: 1rem;
+    color: var(--primary-color);
+    font-size: 1em;
+}
+
+form label input {
+    display: block;
+    font-size: 1.2rem;
+    border: var(--border);
+    border-radius: 4px;
+    padding: .75rem;
+    color: var(--secondary-color);
+    width: 100%;
+    max-width: 20rem;
+    background-color: var(--primary-color);
+}
+
+#pageRating {
+	width: 300px;
+	margin: 1rem;
+}
+
+#rangevalue {
+	font-size: 1.5rem;
+	color: var(--primary-color);
+    margin: 0 1rem;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 1rem 0 1.5rem;
+	width: 310px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+form input.submitBtn {
+    border: var(--border);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 2rem 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+form label input:required {
+    border-left: red solid 4px;
+}
+
+form label input:required:valid {
+    border-left: green solid 4px;
+}

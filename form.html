@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rama Bhagi - WDD 230 - Web Frontend Development | Form</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="WDD 230 - Web Frontend Development - Rama Krishna Bhagi Perez - Form">
+    <meta name="author" content="Rama Krishna Bhagi Perez">
+
+    <!-- styling link tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Vadodara&family=Libre+Franklin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+
+    <!-- social media meta tags -->
+    <meta property="og:title" content="Rama Bhagi - WDD 230 - Web Frontend Development">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://m.psecn.photoshelter.com/img-get/I00000PH45XpbE_U/s/1200/I00000PH45XpbE_U.jpg">
+    <meta property="og:url" content="https://ramakrishnadas.github.io/wdd230/index.html"> 
+</head>
+<body>
+    <header>
+        <div class="hero">
+            <img src="images/me.webp" alt="profile picture">
+            <h1>Rama K. Bhagi</h1>
+        </div>
+        <button id="mode"></button>
+        <nav class="nav-bar">
+            <button id="menu-button"></button>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
+                <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
+                <li><a href="form.html">Form</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="formmessage"></div>
+        <h2>Create an Account</h2>
+        <form method="get" action="record.html">
+            <label>Username*<input type="text" id="username" name="username" required></label>
+            <label>Password*<input type="password" id="password" name="password" required pattern="[a-zA-Z0-9]{8,}" title="At least eight characters long. Only alpha-numeric characters."></label>
+            <label>Confirm Password*<input type="password" id="password2" name="password2" required></label>
+            <label>Email*<input type="email" id="email" name="email" placeholder="someone@byui.edu" required title="Please enter a valid email address. It must come from the byui.edu domain" pattern="[a-zA-Z0-9._%+\-]+@byui\.edu$"></label>
+            <label for="pageRating">Page Rating</label>
+            <div id="rangevalue">0</div>
+            <input type="range" id="pageRating" name="pageRating" min="1" max="10" value="1" step="1" list="rangevalues">
+            <datalist id="rangevalues">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+            </datalist>
+            <input type="submit" value="Create My Account" class="submitBtn">
+
+        </form>
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> | Rama Krishna Bhagi Perez | Caracas, Venezuela</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/darkMode.js"></script>
+    <script src="scripts/form.js"></script>
+    
+</body>
+</html>
