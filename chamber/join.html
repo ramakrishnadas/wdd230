@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caracas Chamber of Commerce</title>
+    <link rel="icon" href="favicon.ico">
+    <meta name="description" content="WDD 230 - Caracas Chamber of Commerce - Rama Krishna Bhagi Perez - Join">
+    <meta name="author" content="Rama Krishna Bhagi Perez">
+
+    <!-- styling link tags -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- social media meta tags -->
+    <meta property="og:title" content="Rama Bhagi - WDD 230 - Caracas Chamber of Commerce">
+    <meta property="og:type" content="website">
+    <!--Add image for social media meta tag here.-->
+    <meta property="og:image" content="https://images.freeimages.com/images/large-previews/5f3/caracas-1520878.jpg">
+    <meta property="og:url" content="https://ramakrishnadas.github.io/wdd230/chamber/index.html">
+</head>
+<body>
+    <header>
+        <h1>Caracas<br>Chamber of Commerce</h1>
+        <nav>
+            <button id="menu-button"></button>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="">Directory</a></li>
+                <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="form-main">
+        <h2>Join Us</h2>
+        <div class="flex-container">
+            <form method="get" action="thankyou.html">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" id="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" id="lname" required></label>
+                    <label class="top">Position<input type="text" name="position" id="position" pattern="[a-zA-Z0-9- ]{7,}"></label>
+                    <label class="top">Email address*<input type="email" name="email" id="email" placeholder="someone@gmail.com" required></label>
+                    <label class="top">Mobile Phone Number*<input type="tel" name="phone" id="phone" required></label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Business Information</legend>
+                    <label class="top">Business/Organization's Name*<input type="text" name="businessname" id="businessname" required></label>
+                    <label class="top">Business/Organization's Description*<textarea name="description" id="description" required rows="5" cols="50"> </textarea></label>
+                </fieldset>
+
+                <div>Membership Level</div>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="np"> NP Membership (Non-Profit)</label>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="bronze"> Bronze Membership</label>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="silver"> Silver Membership</label>
+                <label class="sbs"><input type="radio" name="membershiplvl" value="gold"> Gold Membership</label>
+
+                <input type="hidden" id="timestamp" name="timestamp" value="">
+                <input type="submit" value="Join the Chamber" class="submitBtn">
+            </form>
+            <div class="membership-info">
+                <div class="membership-card">
+                    <h3>NP Membership (Non-Profit)</h3>
+                    <p>
+                        <span>Cost: Free</span><br>
+                        Are you a non-profit organization dedicated to making a positive impact in Caracas? Our NP Membership is tailored just for you. Enjoy all the networking and support benefits of our Chamber without any membership fees. Connect with other like-minded organizations, access valuable resources, and participate in exclusive events designed to help you achieve your charitable goals.
+                    </p>
+                </div>
+                <div class="membership-card">
+                    <h3>Bronze Membership</h3>
+                    <p>
+                        <span>Cost: $199/year</span><br>
+                        Our Bronze Membership is the perfect choice for businesses and organizations looking to establish a solid foundation in the Caracas business community. With this level, you gain access to a wide range of benefits including business training, marketing opportunities, and special discounts on Chamber events. Showcase your commitment to growth and success with the Bronze Membership.
+                    </p>
+                </div>
+                <div class="membership-card">
+                    <h3>Silver Membership</h3>
+                    <p>
+                        <span>Cost: $499/year</span><br>
+                        Elevate your presence in the Caracas business landscape with our Silver Membership. Enjoy all the advantages of the Bronze Membership plus additional perks such as prominent advertising placements on our website, exclusive invitations to high-profile events, and personalized support from our Chamber team. Take your business to the next level with the Silver Membership.
+                    </p>
+                </div>
+                <div class="membership-card">
+                    <h3>Gold Membership</h3>
+                    <p>
+                        <span>Cost: $999/year</span><br>
+                        For those who demand the utmost from their Chamber of Commerce experience, our Gold Membership is the pinnacle of membership levels. With this elite status, you gain unparalleled exposure through prime advertising positions, complimentary attendance at premium events, personalized business consultations, and top-tier networking opportunities. Invest in your success with the Gold Membership and position your business at the forefront of Caracas commerce.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <!-- Add contact information here-->
+        <div class="contact-info">
+            <p>Caracas Chamber of Commerce</p>
+            <p>Plaza La Castellana, 1070</p>
+            <p>+58 (212) 756-1367</p>
+        </div>
+        <hr>
+        <p>&copy; <span id="currentYear"></span> | Rama Krishna Bhagi Perez | WDD 230</p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/timestamp.js"></script>
+</body>
+</html>

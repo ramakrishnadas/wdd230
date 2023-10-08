@@ -110,4 +110,48 @@
             opacity: 1;
         }
     }
+
+    /*----------- FORM --------------*/
+
+    #form-main {
+        margin: 0 auto;
+        max-width: 80%;
+    }
+
+    #form-main h2 {
+        margin-bottom: 30px;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .flex-container {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .membership-info {
+        width: 50%;
+    }
+
+    .membership-card {
+        margin: 30px 10px;
+    }
+
+    form label.top input, textarea {
+        max-width: 60%;
+    }
+
+    form input.submitBtn {
+        cursor: pointer;
+    }
+    
+    form input.submitBtn:hover {
+        background-color: #CEDEBD;
+    }
+
+    form label.sbs {
+        cursor: pointer;
+    }
 }

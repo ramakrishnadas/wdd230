@@ -200,3 +200,101 @@ iframe {
     width: 100%;
     height: auto;
 }
+
+
+/*----------- FORM --------------*/
+#form-main {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0;
+    padding: 30px 0;
+}
+
+#form-main h2 {
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+form, .membership-info {
+    margin: 10px 20px;
+    text-align: left;
+}
+
+form fieldset{
+    margin: 2rem 0;
+    border: 1px solid #9EB384;
+    border-radius: 10px;
+    padding: .5rem 2%;;
+}
+
+form legend {
+    margin: 0 1rem;
+    padding: 0 .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding: .75rem;
+    font-size: 1rem;
+}
+
+form label.top input, textarea {
+    display: block;
+    font-size: 1.2rem;
+    border: 1px solid white;
+    border-radius: 4px;
+    margin-top: 5px;
+    padding: 1rem;
+    color: #435334;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #FAF1E4;
+}
+
+textarea {
+    width: 600px;
+}
+
+form div {
+    font-size: 1.2rem;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    margin-left: 10px;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #FAF1E4;
+    color: #435334;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin: 30px 10px;
+    width: 100%;
+    max-width: 25rem;
+}
+
+.membership-card {
+    background-color: #FAF1E4;
+    color: #435334;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.membership-card span {
+    font-style: italic;
+    font-size: 1.2rem;
+    display: block;
+}
+
+.membership-card p {
+    line-height: 1.7rem;
+}
