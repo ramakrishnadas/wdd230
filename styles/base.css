@@ -211,7 +211,7 @@ footer {
 /* Weather section */
 
 #weather figure {
-    width: 80%;
+    width: 0%;
     margin: 0 auto;
     display: flex;
     align-items: center;
