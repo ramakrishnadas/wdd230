@@ -1,0 +1,44 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background-color: #DAFFFB;
+}
+
+h1 {
+    color: #04364A;
+    margin: 50px auto;
+    font-size: 3rem;
+}
+
+h1, h2 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 10px;
+}
+
+section {
+    
+    padding: 20px;
+    background-color: #04364A;
+    color: white;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #DAFFFB;
+    border-radius: 8px;
+}
