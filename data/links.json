@@ -1,0 +1,101 @@
+{
+    "weeks": [
+        {
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "https://codepen.io/Rama-Krishna-Das/pen/yLGoeRY",
+                    "title": "JS Pen"
+                }
+            ]
+        },
+        {
+            "week": "Week 2",
+            "links": [
+                {
+                    "url": "week02/design.html",
+                    "title": "Design Principles"
+                },
+                {
+                    "url": "https://codepen.io/Rama-Krishna-Das/pen/KKbyoVN",
+                    "title": "JS Pen"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "DOM Manipulation App"
+                }
+            ]
+        },
+        {
+            "week": "Week 3",
+            "links": [
+                {
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
+                },
+                {
+                    "url": "week03/lazyload.html",
+                    "title": "LazyLoad Example"
+                },
+                {
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "Web Storage API (Book of Mormon App)"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Rama-Krishna-Das/pen/qBLJYrZ",
+                    "title": "Pseudo Classes Pen"
+                },
+                {
+                    "url": "week04/images/combinator-exercises.jpeg",
+                    "title": "Combinator Exercises"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table Build"
+                },
+                {
+                    "url": "week04/form-start/index.html",
+                    "title": "HTML Form"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Rama-Krishna-Das/pen/gOZyLZG",
+                    "title": "Pseudo Elements Pen"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON File"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Fetch API"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather Third-Party API"
+                }
+            ]
+        }
+    ]
+}
