@@ -1,0 +1,23 @@
+{
+    "familyName": "Bhagi",
+    "dateJoined": 2019,
+    "numberOfFamilyMembers": 3,
+    "visitedByBishopric": true,
+    "familyMembers": [
+        {
+            "name": "Bernabela Perez de Bhagi",
+            "gender": "female",
+            "birthDate": "11/06/1958"
+        },
+        {
+            "name": "Rama Bhagi",
+            "gender": "male",
+            "birthDate": "31/01/1998"
+        },
+        {
+            "name": "Sambhavi Bhagi",
+            "gender": "female",
+            "birthDate": "23/03/1996"
+        }
+    ]
+}
