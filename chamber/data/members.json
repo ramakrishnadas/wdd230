@@ -1,0 +1,67 @@
+{
+    "members": [
+        {
+            "name": "ABC Enterprises",
+            "address": "123 Main Street, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 123-4567",
+            "websiteURL": "http://www.abc-enterprises.com",
+            "imageURL": "images/abc-enterprises.webp",
+            "membershipLevel": "Silver",
+            "description": "ABC Enterprises is a leading provider of IT solutions and has been an active member of the Chamber for 10 years. They specialize in software development and digital marketing services."
+        }, 
+        {
+            "name": "Caracas Community Foundation",
+            "address": "456 Elm Avenue, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 987-6543",
+            "websiteURL": "http://www.caracascommunityfoundation.org",
+            "imageURL": "images/caracas-community-foundation.webp",
+            "membershipLevel": "Non-Profit",
+            "description": "The Caracas Community Foundation is a non-profit organization dedicated to supporting local charities and community initiatives. They have been a proud member of the Chamber for 15 years."
+        },
+        {
+            "name": "Sunshine Hotels & Resorts",
+            "address": "789 Beachfront Drive, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 567-8901",
+            "websiteURL": "http://www.sunshinehotels.com",
+            "imageURL": "images/sunshine-hotels.webp",
+            "membershipLevel": "Gold",
+            "description": "Sunshine Hotels & Resorts is a renowned chain of luxury hotels with a strong presence in Caracas and is a prominent contributor to the local tourism industry."
+        },
+        {
+            "name": "Caracas Electronics",
+            "address": "321 Tech Lane, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 234-5678",
+            "websiteURL": "http://www.caracaselectronics.com",
+            "imageURL": "images/caracas-electronics.webp",
+            "membershipLevel": "Bronze",
+            "description": "Caracas Electronics is a retailer of cutting-edge electronics and gadgets, offering a wide range of products to tech-savvy customers in the region."
+        },
+        {
+            "name": "Green Eco Solutions",
+            "address": "987 Sustainability Avenue, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 876-5432",
+            "websiteURL": "http://www.greenecosolutions.org",
+            "imageURL": "images/green-eco-solutions.webp",
+            "membershipLevel": "Non-Profit",
+            "description": "Green Eco Solutions is an environmental organization committed to promoting sustainability and eco-friendly practices within the Caracas business community."
+        },
+        {
+            "name": "Caracas Auto Group",
+            "address": "741 Car Dealership Way, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 345-6789",
+            "websiteURL": "http://www.caracasautogroup.com",
+            "imageURL": "images/caracas-auto-group.webp",
+            "membershipLevel": "Silver",
+            "description": "Caracas Auto Group is a reputable automobile dealership offering a wide range of vehicles and exceptional customer service."
+        },
+        {
+            "name": "Tech Innovators Inc.",
+            "address": "555 Innovation Lane, Caracas, Venezuela",
+            "phoneNumber": "+58 (0212) 456-7890",
+            "websiteURL": "http://www.techinnovators.com",
+            "imageURL": "images/tech-innovators-inc.webp",
+            "membershipLevel": "Gold",
+            "description": "Tech Innovators Inc. is a leading technology company known for its innovative software solutions and contributions to the local tech industry."
+        }
+    ]
+}
