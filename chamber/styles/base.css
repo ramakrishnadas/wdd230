@@ -298,3 +298,86 @@ form input.submitBtn {
 .membership-card p {
     line-height: 1.7rem;
 }
+
+/*----------- DIRECTORY --------------*/
+
+#directory-main {
+    padding: 10px 0;
+}
+#directory-main h2 {
+    display: block;
+    padding: 30px;
+}
+
+.display-menu {
+    width: 100%;
+    max-width: 90%;
+    margin: 20px auto;
+    background-color: #9EB384;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.display-menu button {
+    padding: 10px 30px;
+    font-size: 1.2rem;
+}
+
+.display-menu button:hover {
+    cursor: pointer;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+
+.grid div {
+    padding: 20px;
+    background-color: #FAF1E4;
+    color: #435334;
+}
+
+#display div p:last-child {
+    line-height: 2rem;
+}
+
+.grid div .companyName {
+    display: none;
+}
+
+.grid div img {
+    border-radius: 8px;
+    border: 1px solid #435334;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.list div {
+    padding: 20px;
+    background-color: #FAF1E4;
+    color: #435334;
+}
+
+.list div:nth-child(even) {
+    background-color: #ebffd3;
+}
+
+.list div img {
+    display: none;
+}
+
+.list div .companyName {
+    display: inline;
+    font-size: 1.5rem;
+}
