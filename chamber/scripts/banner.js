@@ -7,7 +7,7 @@ const weekdays = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','S
 const validWeekdays = ['Monday','Tuesday','Wednesday'];
 const currentDay = weekdays[today.getDay()];
 
-if (validWeekdays.includes('Tuesday')) {
+if (validWeekdays.includes(currentDay)) {
     button.style.display = 'block';
     banner.style.display = 'block';
 } else {
