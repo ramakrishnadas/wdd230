@@ -151,10 +151,11 @@ footer {
 
 button a {
     text-decoration: none;
+    color: #435334;
 }
 
 button a:visited {
-    color: inherit;
+    color: inherit
 }
 
 /* Home Enhancements */
