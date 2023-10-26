@@ -14,9 +14,8 @@ header, main, footer {
     padding: 10px;
 }
 
-
 .events, .weather, .spotlights {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 header {
@@ -143,6 +142,71 @@ ul {
 footer {
     margin-top: 20px;
     
+}
+
+/* Home Enhancements */
+
+figcaption {
+    text-transform: capitalize;
+}
+
+.weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure {
+    background-color: #CEDEBD;
+    color: #435334;
+    padding: 10px;
+    border-radius: 12px;
+    width: 200px;
+}
+
+.spotlights h2 {
+    margin: 20px 0;
+}
+
+.flex-container1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-container1 > div {
+    background-color: #CEDEBD;
+    color: #435334;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+.flex-container1 > div img {
+    display: block;
+    margin: 15px auto;
+
+}
+
+.events img {
+    width: 100%;
+}
+
+#banner-btn {
+    font-weight: bold;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+	border: 1px solid #9EB384;
+	background-color: #FAF1E4;
+    border-radius: 0.5vh;
+	color: #435334;
+ 	position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+#banner { 
+    display: block;
 }
 
 /* styling for Discover page */

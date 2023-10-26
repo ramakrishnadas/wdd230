@@ -61,21 +61,41 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: auto;
         gap: 20px;
     }
 
     .events {
-        grid-column: span 2;
+        grid-column: span 3;
+    }
+
+    .weather {
+        grid-column: span 3;
     }
 
     .spotlights {
         grid-column: span 3;
     }
 
+
     .flex-container {
         display: flex;
     }
+
+    /* Home Enhancements */
+    .weather-card {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .flex-container1 {
+        flex-direction: row;
+    }
+
+    .flex-container1 > div {
+        width: 100%;
+    }
+
 
     /* styling for Discover page */
     .discover-grid {

@@ -43,40 +43,28 @@
         </div>
         <div class="grid-container">
             <section class="events">
-                <h2>Current Events</h2>
-                <ul>
-                    <li>
-                        <h3>Event Title 1</h3>
-                        <p>Date: January 1, 2024</p>
-                        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </li>
-                </ul>
+                <button id="banner-btn"><span>X</span></button>
+                <img id="banner" src="images/banner.webp" alt="meet and greet banner">
             </section>
 
             <section class="weather">
                 <h2>Weather Forecast</h2>
+                <p>Caracas</p>
                 <div class="weather-card">
-                    <p>City: Caracas</p>
-                    <p>Temperature: 70°F</p>
-                    <p>Condition: Sunny</p>
+                    <figure>
+                        <p>Current Weather</p>
+                        <img id="weather-icon" class="icon" src="" alt="">
+                        <p><span id="current-temp"></span>°F</p>
+                        <figcaption></figcaption>
+                    </figure>
+                    
                 </div>
             </section>
 
             <section class="spotlights">
                 <h2>Company Spotlights</h2>
-                <div class="flex-container">
-                    <div class="spotlight">
-                        <h3>Spotlight 1</h3>
-                        <p>Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    </div>
-                    <div class="spotlight">
-                        <h3>Spotlight 2</h3>
-                        <p>Description: Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                    </div>
-                    <div class="spotlight">
-                        <h3>Spotlight 3</h3>
-                        <p>Description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
-                    </div>
+                <div class="flex-container1">
+
                 </div>
             </section>
         </div>
@@ -94,5 +82,9 @@
     </footer>
     <script src="scripts/getDates.js"></script>
     <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentWeather.js"></script>
+    <script src="scripts/weatherForecast.js"></script>
+    <script src="scripts/spotlights.js"></script>
+    <script src="scripts/banner.js"></script>
 </body>
 </html>
