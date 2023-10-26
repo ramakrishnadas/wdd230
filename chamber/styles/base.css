@@ -144,6 +144,19 @@ footer {
     
 }
 
+.current {
+    background-color: #CEDEBD;
+    color: #435334 !important;
+}
+
+button a {
+    text-decoration: none;
+}
+
+button a:visited {
+    color: inherit;
+}
+
 /* Home Enhancements */
 
 figcaption {
